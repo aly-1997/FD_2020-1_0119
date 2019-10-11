@@ -21,7 +21,7 @@ double DIV(double x, double y){
 	return z;
 }
 int main(int argc, char *argv[]){
-	double n1, n2, suma, resta, mult, div;
+	double n1, n2, suma, resta, mult, divi;
 	n1 = atof(argv[1]);
 	n2 = atof(argv[2]);
 	suma = SUMA(n1, n2);
@@ -30,7 +30,7 @@ int main(int argc, char *argv[]){
 	printf("%.2f\n", resta);
 	mult = MULTI(n1, n2);
 	printf("%.2f\n", mult);
-	div = DIV(n1, n2);
-	printf("%.2f\n", div);
+	divi = DIV(n1, n2);
+	printf("%.2f\n", divi);
 	return 0;
 }
