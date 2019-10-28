@@ -4,7 +4,7 @@
 //Dentro de la funcion void introducimos un switch 
 //para cada uno de los casos de los argumentos de entrada
 void casos(char argv[]){
-	int i;
+	int i = 0;
 	switch (argv[i]){
 		case '2':
 		printf("2\n");
