@@ -45,3 +45,4 @@ void ordenar(int x[], int y){
 //Para realizar este programa se utiliza el algoritmo de la burbuja, el cual es un metodo de ordenacion muy simple, el cual consiste en lo siguiente:
 //Se compara cada elemento del arreglo con el siguiente (por parejas), si no estan en el orden correcto, se intercambian entre sí sus valores.
 //El valor mas pequeño flota hasta la parte superior del arreglo como si fuera una burbuja en un vaso de refresco con gas. 
+//Fuente: PROGRAMACIÓN EN C. Metodología, algoritmos y estructura de datos. Autor: Luis Joyanes Aguilar, Ignacio Zahonero Martínez.
