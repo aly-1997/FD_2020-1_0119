@@ -21,7 +21,7 @@ void CUADRATICA(double x, double y, double z){
 	det=((y*y)-(4*x*z));
 	//Esta condicion indica que solo habra un resultado
 	if(det==0){
-		res=(-y/2*x);
+		res=-y/(2*x);
 		printf("%.2lf\n", res);
 	}
 	//Esta condicion indica que hay dos resultados los cuales son reales
@@ -33,8 +33,8 @@ void CUADRATICA(double x, double y, double z){
 	}
 	//Esta condicion indica que hay dos soluciones las cuales tienen parte imaginaria
 	if(det<0){
-		r1=(-y/2*x);
-		r2=(-y/2*x);
+		r1=-y/(2*x);
+		r2=-y/(2*x);
 		im1=(sqrt(fabs(det)))/(2*x);
 		im2=(sqrt(fabs(det)))/(2*x);
 		printf("%.2lf + %.2lf i\n", r1, im1);
